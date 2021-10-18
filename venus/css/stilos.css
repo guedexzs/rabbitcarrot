@@ -1,0 +1,134 @@
+.nav-link {
+    font-size: 18px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .centro {
+        margin-left: 0%;
+    }
+    .centralizandoN {
+        margin-left: 11vw;
+    }
+    .direitaNav {
+        margin-left: 53vw;
+    }
+    .descendoNav {
+        font-family: 'Roboto', sans-serif;
+        padding-top: 63px;
+    }
+}
+
+@media (min-width: 760px) and (max-width: 3000px) {
+    .descendoNav {
+        font-family: 'Roboto', sans-serif;
+        padding-top: 60px;
+    }
+}
+
+@media (min-height: 10px) and (max-height: 900px) {
+    .footerControl {
+        margin-left: 0%;
+    }
+}
+
+@media (min-height: 910px) and (max-height: 5000px) {
+    .footerControl {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+.centralizando {
+    margin: 1vw auto;
+    width: 90vw;
+}
+
+.whatsapp {
+    position: fixed;
+    top: 85%;
+    left: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
+
+.menor {
+    font-size: 17px;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.black {
+    color: black;
+}
+
+.card-text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cima {
+    z-index: 999999999;
+}
+
+.textoNav {
+    font-size: 25px;
+    color: #000000;
+}
+
+.textinhoEmpresa {
+    color: rgb(100, 100, 100);
+    padding-left: 7vw;
+    padding-right: 7vw;
+}
+
+.pertinho {
+    margin-bottom: -19px;
+}
+
+.fontezada {
+    font-family: fontzada;
+}
+
+@font-face {
+    font-family: fontzada;
+    src: url(roboto.ttf);
+}
+
+@font-face {
+    font-family: textoLogo;
+    src: url(montserat.ttf);
+}
+
+.textoLogo {
+    font-family: textoLogo;
+}
+
+.descricoes {
+    color: rgb(100, 100, 100);
+}
+
+.abaixandoImagens {
+    padding-top: 10px;
+}
+
+.zoom:hover {
+    transform: scale(1.10);
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.logo {
+    padding-top: 70px;
+}
+
+.alinhandoDescricoes {
+    display: none;
+    font-size: 2vw;
+    padding-top: 65px;
+    color: white;
+}
